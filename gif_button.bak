@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32L0:STM32L031G6Ux U?
+U 1 1 5D0A851C
+P 2775 2650
+F 0 "U?" H 2725 1664 50  0000 C CNN
+F 1 "STM32L031G6Ux" H 2725 1573 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-28_4x4mm_P0.5mm" H 2275 1850 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf" H 2775 2650 50  0001 C CNN
+	1    2775 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_parts:TP4057 U?
+U 1 1 5D0A860E
+P 8300 2025
+F 0 "U?" H 8350 2753 50  0000 C CNN
+F 1 "TP4057" H 8350 2662 50  0000 C CNN
+F 2 "" H 8250 2525 50  0001 C CNN
+F 3 "" H 8250 2525 50  0001 C CNN
+	1    8300 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card J?
+U 1 1 5D0A86CF
+P 2675 5675
+F 0 "J?" H 2625 6392 50  0000 C CNN
+F 1 "Micro_SD_Card" H 2625 6301 50  0000 C CNN
+F 2 "" H 3825 5975 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 2675 5675 50  0001 C CNN
+	1    2675 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x12_Female J?
+U 1 1 5D0A87BF
+P 6350 4600
+F 0 "J?" H 6377 4576 50  0000 L CNN
+F 1 "ST_7789" H 6150 5250 50  0000 L CNN
+F 2 "" H 6350 4600 50  0001 C CNN
+F 3 "~" H 6350 4600 50  0001 C CNN
+	1    6350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5D0A8870
+P 5050 1550
+F 0 "J?" H 5077 1526 50  0000 L CNN
+F 1 "SWD" H 4850 1850 50  0000 L CNN
+F 2 "" H 5050 1550 50  0001 C CNN
+F 3 "~" H 5050 1550 50  0001 C CNN
+	1    5050 1550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
